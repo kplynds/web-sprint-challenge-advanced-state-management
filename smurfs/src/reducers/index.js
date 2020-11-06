@@ -2,6 +2,7 @@
 // import axios from "axios";
 // import React, {useState} from "react";
 import {FORM_CHANGE} from "../actions"
+//change
 
 
 
@@ -18,7 +19,7 @@ export function reducer (state = initialState, action) {
             return {
                 ...state,
                 values: ...values,
-                
+
             }
     }
 }
